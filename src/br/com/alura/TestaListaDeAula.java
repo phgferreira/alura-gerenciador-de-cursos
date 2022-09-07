@@ -1,6 +1,7 @@
 package br.com.alura;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class TestaListaDeAula {
 
@@ -15,5 +16,7 @@ public class TestaListaDeAula {
 		aulas.add(a3);
 		
 		System.out.println(aulas);
+		
+		Collections.sort(aulas);
 	}
 }
