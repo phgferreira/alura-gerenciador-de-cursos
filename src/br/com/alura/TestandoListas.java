@@ -26,5 +26,9 @@ public class TestandoListas {
 		
 		String primeiraAula = aulas.get(0);
 		System.out.println("A primeira aula é " + primeiraAula);
+		
+		for (int i = 0; i < aulas.size(); i++) {
+			System.out.println("aula: " + aulas.get(i));
+		}
 	}
 }
