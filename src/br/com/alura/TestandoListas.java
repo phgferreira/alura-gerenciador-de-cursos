@@ -1,6 +1,7 @@
 package br.com.alura;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class TestandoListas {
 
@@ -34,5 +35,10 @@ public class TestandoListas {
 		aulas.forEach(aula -> {
 			System.out.println("percorrendo: " + aula);
 		});
+		
+		aulas.add("Aumentando nosso conhecimento");
+		System.out.println("Ordem original: " + aulas);
+		Collections.sort(aulas);
+		System.out.println("Depois de ordenado: " + aulas);
 	}
 }
