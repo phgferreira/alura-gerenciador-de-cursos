@@ -3,3 +3,12 @@
 > Status: Em desenvolvimento
 
 Esse projeto tem o objetivo de por em prática tudo que for aprendito no curso da Alura [Java Collections: Dominando Listas, Sets e Mapas](https://www.alura.com.br/curso-online-java-collections)
+
+### Aula 01
+Revisando matéria:
+* Adicionando e removendo itens em um ArrayList;
+* Percorrendo a lista com foreach;
+* Buscando o primeiro elemento;
+* Percorrendo a lisat com índice;
+* Percorrendo com o método forEach e lambda;
+* Ordenando lista com Collections
