@@ -30,5 +30,9 @@ public class TestandoListas {
 		for (int i = 0; i < aulas.size(); i++) {
 			System.out.println("aula: " + aulas.get(i));
 		}
+		
+		aulas.forEach(aula -> {
+			System.out.println("percorrendo: " + aula);
+		});
 	}
 }
