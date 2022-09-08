@@ -9,6 +9,11 @@ public class Aluno {
 		this.nome = nome;
 		this.numeroMatricula = numeroMatricula;
 	}
+	
+	@Override
+	public String toString() {
+		return "Aluno [nome=" + nome + ", numeroMatricula=" + numeroMatricula + "]";
+	}
 
 	public String getNome() {
 		return nome;

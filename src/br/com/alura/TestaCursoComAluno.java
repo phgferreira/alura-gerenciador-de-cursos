@@ -9,6 +9,14 @@ public class TestaCursoComAluno {
 		javaColecoes.adiciona(new Aula("Criando uma Aula", 20));
 		javaColecoes.adiciona(new Aula("Modelando com coleções", 24));
 		
+		Aluno rodrigo = new Aluno("Rodrigo Turini", 34672);
+		Aluno guilherme = new Aluno("Guilherme Silveira", 5617);;
+		Aluno mauricio = new Aluno("Mauricio Aniche", 17645);
 		
+		javaColecoes.matricula(rodrigo);
+		javaColecoes.matricula(guilherme);
+		javaColecoes.matricula(mauricio);
+		
+		System.out.println(javaColecoes.getAlunos());
 	}
 }
