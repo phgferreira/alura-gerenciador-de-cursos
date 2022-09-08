@@ -67,9 +67,8 @@ public class Curso {
 
 	public Aluno buscaMatriculado(int numero) {
 		// Infelizmente quando o elemento não é encontrado não retorna excessão NoSuchElementException como antes
-		Aluno aluno = matriculaParaAluno.get(numero);
-		if (aluno == null)
-			throw new NoSuchElementException();
-		return aluno;
+		if (matriculaParaAluno.containsKey(numero))
+			return matriculaParaAluno.get(numero);
+		throw new NoSuchElementException();
 	}
 }
