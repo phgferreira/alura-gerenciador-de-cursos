@@ -25,7 +25,16 @@ public class TestaCursoComAluno {
 //		Set<String> nomes = Collections.emptySet();
 //		nomes.add("Ferreira");
 		
-		System.out.println("O aluno Rodrigo está matriculado ?");
-		System.out.println(javaColecoes.estaMatriculado(rodrigo));
+		System.out.println("O aluno " + guilherme + " está matriculado ?");
+		System.out.println(javaColecoes.estaMatriculado(guilherme));
+		
+		Aluno turini = new Aluno("Rodrigo Turini", 34672);
+		System.out.println("O rodrigo é igual ao turini?");
+		System.out.println(rodrigo.equals(turini));
+
+		System.out.println("E esse Turini, está matriculado?");
+		System.out.println(javaColecoes.estaMatriculado(turini));
+		
+		
 	}
 }
