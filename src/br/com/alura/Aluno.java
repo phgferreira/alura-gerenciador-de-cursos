@@ -22,6 +22,11 @@ public class Aluno {
 		Aluno aluno = (Aluno) obj;
 		return this.nome.equals(aluno.nome);
 	}
+	
+	@Override
+	public int hashCode() {
+		return this.nome.hashCode();
+	}
 
 	public String getNome() {
 		return nome;

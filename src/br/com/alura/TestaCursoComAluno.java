@@ -27,13 +27,14 @@ public class TestaCursoComAluno {
 		
 		System.out.println("O aluno " + guilherme + " está matriculado ?");
 		System.out.println(javaColecoes.estaMatriculado(guilherme));
-		
+
 		Aluno turini = new Aluno("Rodrigo Turini", 34672);
 		System.out.println("O rodrigo é igual ao turini?");
 		System.out.println(rodrigo.equals(turini));
 
 		System.out.println("E esse Turini, está matriculado?");
 		System.out.println(javaColecoes.estaMatriculado(turini));
+		// ATENÇÃO: Toda vez que for redefinir o método equals, precisa redefinir o método hashCode 
 		
 		
 	}
