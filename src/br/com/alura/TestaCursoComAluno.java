@@ -1,8 +1,5 @@
 package br.com.alura;
 
-import java.util.Collections;
-import java.util.Set;
-
 public class TestaCursoComAluno {
 
 	public static void main(String[] args) {
@@ -25,8 +22,10 @@ public class TestaCursoComAluno {
 			System.out.println(aluno);
 		});
 		
-		Set<String> nomes = Collections.emptySet();
-		nomes.add("Ferreira");
+//		Set<String> nomes = Collections.emptySet();
+//		nomes.add("Ferreira");
 		
+		System.out.println("O aluno Rodrigo está matriculado ?");
+		System.out.println(javaColecoes.estaMatriculado(rodrigo));
 	}
 }
