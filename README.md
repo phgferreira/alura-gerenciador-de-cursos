@@ -32,3 +32,8 @@ Revisando matéria:
     * shuffle();
     * singletonList();
     * nCopies().
+
+### Aula 05
+* Conhecendo o Set e Collections;
+* Analisando suas diferenças com uma lista;
+* Verificando performance do HashSet com uma ArrayList.
