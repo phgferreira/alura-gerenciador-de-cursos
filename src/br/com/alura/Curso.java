@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.NoSuchElementException;
 import java.util.Set;
 
 public class Curso {
@@ -65,6 +66,10 @@ public class Curso {
 	}
 
 	public Aluno buscaMatriculado(int numero) {
-		return matriculaParaAluno.get(numero);
+		// Infelizmente quando o elemento não é encontrado não retorna excessão NoSuchElementException como antes
+		Aluno aluno = matriculaParaAluno.get(numero);
+		if (aluno == null)
+			throw new NoSuchElementException();
+		return aluno;
 	}
 }
