@@ -1,5 +1,8 @@
 package br.com.alura;
 
+import java.util.Collections;
+import java.util.Set;
+
 public class TestaCursoComAluno {
 
 	public static void main(String[] args) {
@@ -21,5 +24,9 @@ public class TestaCursoComAluno {
 		javaColecoes.getAlunos().forEach(aluno -> {
 			System.out.println(aluno);
 		});
+		
+		Set<String> nomes = Collections.emptySet();
+		nomes.add("Ferreira");
+		
 	}
 }
