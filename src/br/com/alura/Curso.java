@@ -28,6 +28,11 @@ public class Curso {
 		return this.aulas.stream().mapToInt(Aula::getTempo).sum();
 	}
 
+	@Override
+	public String toString() {
+		return "Curso [nome=" + nome + ", tempo total=" + getTempoTotal() + "]";
+	}
+
 	public String getNome() {
 		return nome;
 	}
