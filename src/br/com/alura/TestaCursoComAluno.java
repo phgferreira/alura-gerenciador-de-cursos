@@ -1,5 +1,8 @@
 package br.com.alura;
 
+import java.util.Iterator;
+import java.util.Set;
+
 public class TestaCursoComAluno {
 
 	public static void main(String[] args) {
@@ -38,6 +41,10 @@ public class TestaCursoComAluno {
 		
 		System.out.println(rodrigo.hashCode() == turini.hashCode());
 		
+		Set<Aluno> alunos = javaColecoes.getAlunos();
+		Iterator<Aluno> iterator = alunos.iterator();
+		while (iterator.hasNext())
+			System.out.println(iterator.next());
 		
 	}
 }
