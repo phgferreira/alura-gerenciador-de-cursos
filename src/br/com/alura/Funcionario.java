@@ -10,6 +10,13 @@ public class Funcionario {
 		this.idade = idade;
 	}
 
+	@Override
+	public String toString() {
+		return "Funcionario [nome=" + nome + ", idade=" + idade + "]";
+	}
+
+
+
 	public String getNome() {
 		return nome;
 	}
