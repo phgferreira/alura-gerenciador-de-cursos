@@ -1,11 +1,12 @@
 package br.com.alura;
 
-public class OrdenaPorIdade implements Comparable<Funcionario> {
+import java.util.Comparator;
+
+public class OrdenaPorIdade implements Comparator<Funcionario> {
 
 	@Override
-	public int compareTo(Funcionario o) {
-		// TODO Auto-generated method stub
-		return 0;
+	public int compare(Funcionario f1, Funcionario f2) {
+		return f1.getIdade().compareTo(f2.getIdade());
 	}
 
 }

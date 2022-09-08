@@ -11,7 +11,7 @@ public class TesteFuncionario {
 		Funcionario f2 = new Funcionario("Jonatan", 9);
 		Funcionario f3 = new Funcionario("Guaraciara", 13);
 		
-		Set<Funcionario> funcionarios = new TreeSet<>();
+		Set<Funcionario> funcionarios = new TreeSet<>(new OrdenaPorIdade());
 		funcionarios.add(f1);
 		funcionarios.add(f2);
 		funcionarios.add(f3);
