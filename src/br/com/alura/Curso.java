@@ -17,6 +17,10 @@ public class Curso {
 		this.nome = nome;
 		this.instrutor = instrutor;
 	}
+	
+	public void adiciona(Aula aula) {
+		this.aulas.add(aula);
+	}
 
 	public String getNome() {
 		return nome;
