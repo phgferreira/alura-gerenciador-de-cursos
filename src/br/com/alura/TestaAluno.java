@@ -23,6 +23,11 @@ public class TestaAluno {
 		for (String aluno : alunos) {
 			System.out.println(aluno);
 		}
+
+		// Mesmo que tenha inserido um objeto repetido ele não duplica esse objeto na coleção
+		alunos.add("Mauricio Aniche");
+		System.out.println(alunos.size());
+		
 	}
 
 }
