@@ -47,3 +47,8 @@ Revisando matéria:
 ### Aula 07
 * Sobreescrevendo o método equals e verificando se aluno está matriculado;
 * Conhecendo o método hashCode e sobreescrevendo o mesmo;
+
+### Aula 08
+* Conhecendo o LinkedHashSet;
+* Conhecendo o TreeSet (precisa de um comparador);
+* Usando o Iterator.
