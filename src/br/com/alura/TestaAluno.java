@@ -40,6 +40,7 @@ public class TestaAluno {
 		System.out.println(pauloEstaMatriculado);
 		
 		List<String> alunosEmLista = new ArrayList<>(alunos);
+		System.out.println(alunosEmLista);
 	}
 
 }
