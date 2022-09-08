@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Set;
 
 public class Curso {
@@ -58,5 +59,13 @@ public class Curso {
 
 	public boolean estaMatriculado(Aluno aluno) {
 		return this.alunos.contains(aluno);
+	}
+
+	public Aluno buscaMatriculado(int numero) {
+		for (Aluno aluno : alunos) {
+			if (aluno.getNumeroMatricula().equals(numero))
+				return aluno;
+		}
+		throw new NoSuchElementException("Matricula não encontrado " + numero);
 	}
 }
