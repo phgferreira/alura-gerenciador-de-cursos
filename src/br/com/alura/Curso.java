@@ -3,6 +3,7 @@ package br.com.alura;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -15,7 +16,7 @@ public class Curso {
 	 * Ex: Dependendo da necessidade eu poderia tratar a lista aulas como um ArrayList ou LinkedList
 	 */
 	private List<Aula> aulas = new ArrayList<Aula>();
-	private Set<Aluno> alunos = new HashSet<>();
+	private Set<Aluno> alunos = new LinkedHashSet<>();
 	
 	
 	public Curso(String nome, String instrutor) {
