@@ -37,3 +37,9 @@ Revisando matéria:
 * Conhecendo o Set e Collections;
 * Analisando suas diferenças com uma lista;
 * Verificando performance do HashSet com uma ArrayList.
+
+### Aula 06
+* Criand oa classe aluno e encapsulando com o método matricula(Aluno aluno);
+* Protegendo modificação da coleção de alunos com **Collections.unmodifiableSet(...)**;
+* Conhecedo o **Collections.emptySet()**;
+* Conhecendo o **Collections.synchronizedSet(...)**.
