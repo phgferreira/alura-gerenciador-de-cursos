@@ -34,7 +34,9 @@ public class TestaCursoComAluno {
 
 		System.out.println("E esse Turini, está matriculado?");
 		System.out.println(javaColecoes.estaMatriculado(turini));
-		// ATENÇÃO: Toda vez que for redefinir o método equals, precisa redefinir o método hashCode 
+		// ATENÇÃO: Toda vez que for redefinir o método equals, precisa redefinir o método hashCode
+		
+		System.out.println(rodrigo.hashCode() == turini.hashCode());
 		
 		
 	}
