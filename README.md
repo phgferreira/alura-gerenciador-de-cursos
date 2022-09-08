@@ -52,3 +52,6 @@ Revisando matéria:
 * Conhecendo o LinkedHashSet;
 * Conhecendo o TreeSet (precisa de um comparador);
 * Usando o Iterator.
+
+### Aula 09
+Revisamos o conteúdo de coleções e listas discutindo quando usar um e outro antes de começar o Map.
