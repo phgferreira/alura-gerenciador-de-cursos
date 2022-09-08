@@ -16,5 +16,10 @@ public class ExercicioIteratorMapPessoas {
 		for (Integer idade : pessoas.keySet()) {
 			System.out.println(pessoas.get(idade));
 		}
+		
+		// Resultado do professor foi usando lambda
+		pessoas.keySet().forEach(idade -> {
+			System.out.println(pessoas.get(idade));
+		});
 	}
 }
