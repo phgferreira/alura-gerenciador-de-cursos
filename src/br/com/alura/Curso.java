@@ -2,9 +2,10 @@ package br.com.alura;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
-import java.util.NoSuchElementException;
+import java.util.Map;
 import java.util.Set;
 
 public class Curso {
@@ -17,6 +18,7 @@ public class Curso {
 	 */
 	private List<Aula> aulas = new ArrayList<Aula>();
 	private Set<Aluno> alunos = new HashSet<>();
+	private Map<Integer, Aluno> matriculaParaAluno = new HashMap<>();
 	
 	
 	public Curso(String nome, String instrutor) {
@@ -34,6 +36,7 @@ public class Curso {
 	
 	public void matricula(Aluno aluno) {
 		this.alunos.add(aluno);
+		this.matriculaParaAluno.put(aluno.getNumeroMatricula(), aluno);
 	}
 
 	@Override
@@ -62,10 +65,6 @@ public class Curso {
 	}
 
 	public Aluno buscaMatriculado(int numero) {
-		for (Aluno aluno : alunos) {
-			if (aluno.getNumeroMatricula().equals(numero))
-				return aluno;
-		}
-		throw new NoSuchElementException("Matricula não encontrado " + numero);
+		return matriculaParaAluno.get(numero);
 	}
 }
