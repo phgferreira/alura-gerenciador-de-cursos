@@ -33,6 +33,9 @@ public class TestaAluno {
 		alunos.add("Mauricio Aniche");
 		System.out.println(alunos.size());
 		
+		
+		boolean pauloEstaMatriculado = alunos.contains("Paulo Silveira");
+		System.out.println(pauloEstaMatriculado);
 	}
 
 }
