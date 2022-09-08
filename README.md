@@ -11,4 +11,9 @@ Revisando matéria:
 * Buscando o primeiro elemento;
 * Percorrendo a lisat com índice;
 * Percorrendo com o método forEach e lambda;
-* Ordenando lista com Collections
+* Ordenando lista com Collections.
+
+### Aula 02
+* Criando uma nova lista de objetos Aula e adicionando em uma lista;
+* Ordenando a lista implantando um critério de ordenação na classe Aula usando Comparable e compareTo();
+* Ordenando com outro critério de ordenação usando Comparator.comparing.
