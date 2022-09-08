@@ -2,8 +2,8 @@ package br.com.alura;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.NoSuchElementException;
@@ -19,7 +19,7 @@ public class Curso {
 	 */
 	private List<Aula> aulas = new ArrayList<Aula>();
 	private Set<Aluno> alunos = new HashSet<>();
-	private Map<Integer, Aluno> matriculaParaAluno = new LinkedHashMap<>();
+	private Map<Integer, Aluno> matriculaParaAluno = new HashMap<>();
 	
 	
 	public Curso(String nome, String instrutor) {
