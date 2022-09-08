@@ -43,3 +43,7 @@ Revisando matéria:
 * Protegendo modificação da coleção de alunos com **Collections.unmodifiableSet(...)**;
 * Conhecedo o **Collections.emptySet()**;
 * Conhecendo o **Collections.synchronizedSet(...)**.
+
+### Aula 07
+* Sobreescrevendo o método equals e verificando se aluno está matriculado;
+* Conhecendo o método hashCode e sobreescrevendo o mesmo;
