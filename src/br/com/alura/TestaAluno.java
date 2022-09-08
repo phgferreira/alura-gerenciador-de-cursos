@@ -23,6 +23,11 @@ public class TestaAluno {
 		for (String aluno : alunos) {
 			System.out.println(aluno);
 		}
+		
+		// Forma alternativa de imprimir os objetos de um Set é usando o método forEach com lambda
+		alunos.forEach(aluno -> {
+			System.out.println(aluno);
+		});
 
 		// Mesmo que tenha inserido um objeto repetido ele não duplica esse objeto na coleção
 		alunos.add("Mauricio Aniche");
