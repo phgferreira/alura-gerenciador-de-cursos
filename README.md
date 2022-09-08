@@ -1,6 +1,6 @@
 # alura-gerenciador-de-cursos
 
-> Status: Em desenvolvimento
+> Status: Concluído
 
 Esse projeto tem o objetivo de por em prática tudo que for aprendito no curso da Alura [Java Collections: Dominando Listas, Sets e Mapas](https://www.alura.com.br/curso-online-java-collections)
 
@@ -55,3 +55,9 @@ Revisando matéria:
 
 ### Aula 09
 Revisamos o conteúdo de coleções e listas discutindo quando usar um e outro antes de começar o Map.
+
+### Aula 10
+* Conhecendo os Maps (HashMap e LinkedHashMap);
+* Quando inserimos um elemento com a mesma chave de um elemento já existe ele sobrescreve esse elemento;
+* O método keySet() retorna uma coleção de chaves enquando o método values() retorna uma coleção de valores;
+* O método get do Map precisa receber a chave para encontrar o elemento.
