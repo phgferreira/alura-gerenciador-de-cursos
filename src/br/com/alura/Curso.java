@@ -14,6 +14,7 @@ public class Curso {
 	 */
 	private List<Aula> aulas = new ArrayList<Aula>();
 	
+	
 	public Curso(String nome, String instrutor) {
 		this.nome = nome;
 		this.instrutor = instrutor;
@@ -24,11 +25,7 @@ public class Curso {
 	}
 	
 	public Integer getTempoTotal() {
-		int tempoTotal = 0;
-		for (Aula aula : aulas) {
-			tempoTotal += aula.getTempo();
-		}
-		return tempoTotal;
+		return this.aulas.stream().mapToInt(Aula::getTempo).sum();
 	}
 
 	public String getNome() {
