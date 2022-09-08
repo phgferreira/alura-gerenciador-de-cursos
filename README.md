@@ -17,3 +17,9 @@ Revisando matéria:
 * Criando uma nova lista de objetos Aula e adicionando em uma lista;
 * Ordenando a lista implantando um critério de ordenação na classe Aula usando Comparable e compareTo();
 * Ordenando com outro critério de ordenação usando Comparator.comparing.
+
+### Aula 03
+* Criando a classe curso;
+* Adicionando aulas da forma não recomendada, usando o javaColecoes.getAulas().add (new Aula ...) e encapsuando isso criando o método adicionar na classe Curso;
+* Usando o Collections.unmodifiedList no return do método getAulas para impedir que peguem essa lista e modifiquem externamente ao objeto Curso;
+* Demonstrando um pouco a versatilidade de quando usamos a interface List ao invés de ArrayList e LinkedList como atributos do objeto.
