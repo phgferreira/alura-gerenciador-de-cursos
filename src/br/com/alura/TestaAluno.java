@@ -1,12 +1,14 @@
 package br.com.alura;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashSet;
-import java.util.Set;
+import java.util.List;
 
 public class TestaAluno {
 
 	public static void main(String[] args) {
-		Set<String> alunos = new HashSet<String>();
+		Collection<String> alunos = new HashSet<String>();
 		alunos.add("Rodrigo Turini");
 		alunos.add("Alberto Souza");
 		alunos.add("Nico Steppat");
@@ -36,6 +38,8 @@ public class TestaAluno {
 		
 		boolean pauloEstaMatriculado = alunos.contains("Paulo Silveira");
 		System.out.println(pauloEstaMatriculado);
+		
+		List<String> alunosEmLista = new ArrayList<>(alunos);
 	}
 
 }
