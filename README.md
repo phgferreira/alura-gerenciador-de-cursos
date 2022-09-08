@@ -23,3 +23,12 @@ Revisando matéria:
 * Adicionando aulas da forma não recomendada, usando o javaColecoes.getAulas().add (new Aula ...) e encapsuando isso criando o método adicionar na classe Curso;
 * Usando o Collections.unmodifiedList no return do método getAulas para impedir que peguem essa lista e modifiquem externamente ao objeto Curso;
 * Demonstrando um pouco a versatilidade de quando usamos a interface List ao invés de ArrayList e LinkedList como atributos do objeto.
+
+### Aula 04
+* Ordenando as aulas do curso;
+* Exibindo o tempo total das aulas;
+* Outros métodos de Collections:
+    * reverse();
+    * shuffle();
+    * singletonList();
+    * nCopies().
