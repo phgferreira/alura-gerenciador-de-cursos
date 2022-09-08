@@ -45,6 +45,10 @@ public class TestaCursoComAluno {
 		Iterator<Aluno> iterator = alunos.iterator();
 		while (iterator.hasNext())
 			System.out.println(iterator.next());
-		
+		/*
+		 * Usando um iterador, depois de já ter percorrido todos os itens, o método next não funciona mais,
+		 * para repercorrer os itens precisar criar um novo itarador
+		 */
+		//Aluno depoisDoUltimo = iterator.next();
 	}
 }
