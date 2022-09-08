@@ -30,7 +30,7 @@ public class Curso {
 
 	@Override
 	public String toString() {
-		return "Curso [nome=" + nome + ", tempo total=" + getTempoTotal() + "]";
+		return "Curso [nome=" + nome + ", tempo total=" + getTempoTotal() + ", aulas=" + aulas +"]";
 	}
 
 	public String getNome() {
